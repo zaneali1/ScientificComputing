@@ -12,7 +12,7 @@ where *a* and *b* are the limits of the definite integral, *n* is the number of 
 <img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorS.PNG" width="160"/>
 </p>
 
-The function chosen
+In this project, the Simpson's Rule, Trapezium Rule and a Python scipy.integrate package are used to evaluate a definite integral, and the error values are compared to the expected value in the first two instances. 
 
 ## References
 [1] Hoover, Dorothy M. (1955) "Estimates of Error in Numerical Integration," Journal of the Arkansas Academy of Science: Vol. 8 , Article
