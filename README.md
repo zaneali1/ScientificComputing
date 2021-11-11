@@ -1,1 +1,1 @@
-# ScientificComputing
+# Numerical Integration
