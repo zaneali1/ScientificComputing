@@ -1,0 +1,10 @@
+A table of approximations for the integral of the function provided to numericalintegration.py which
+ have been calculated by the trapezium rule, where n is the number of trapezia. 
+
+n		Integral Approximation
+1		0.12306002480577674
+10		0.46270255579806147
+100		0.46659035036214086
+1000		0.4666292694667587
+10000		0.4666296586619118
+100000		0.4666296625538608
