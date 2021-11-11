@@ -9,7 +9,7 @@ The definite integral of a function can be computed numerically using the Trapez
 
 where *a* and *b* are the limits of the definite integral, *n* is the number of subintervals for the trapezia and ξ is an adjustable parameter which exists somewhere between *a* and *b*. For the Simpson's Rule, the error can be found as: [1]
 <p align="center">
-<img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorS.PNG" width="160"/>
+<img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorS.PNG" width="160"/> [1]
 </p>
 
 In this project, the Simpson's Rule, Trapezium Rule and a Python scipy.integrate package are used to evaluate a definite integral, and the error values are compared to the expected value in the first two instances. 
