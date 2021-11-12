@@ -12,7 +12,7 @@ where *a* and *b* are the limits of the definite integral, *n* is the number of 
 <img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorS.PNG" width="160"/> [1]
 </p>
 
-In this project, the Simpson's Rule, Trapezium Rule and a Python scipy.integrate package are used to evaluate a definite integral, and the error values are compared to the expected value in the first two instances. A least-squares line of best fit technique is used to evaluate the error against different values of _n_.
+In this project, the Simpson's Rule, Trapezium Rule and a Python scipy.integrate package are used to evaluate a definite integral, and the error values are compared to the expected value in the first two instances. A least-squares line of best fit technique is used to evaluate the error approximations against different values of _n_.
 
 ## Program
 The program NumericalIntegration.py uses a function with limits, which can be user-defined, to produce a set of plots and data which are evaluated in the report NumericalIntegrationTechniques.pdf. An overview of the outputs of the program are as follows:
