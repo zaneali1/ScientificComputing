@@ -2,14 +2,14 @@
 *NB: A detailed write-up of this project can be found in this repository in the file NumericalIntegrationTechniques.pdf*.
 
 ## Overview
-The definite integral of a function can be computed numerically using the Trapezium or Simpson's Rule. The Trapezium rule evaluates the area under a graph *f(x)* as a set of trapezia with straight line segments while the Simpson's Rule uses segments with parabolic curves. The techniques are approximations of the definite integral and have lower- and upper-bound error values which can be found analytically. For the Trapezium Rule, the error can be found as: [1]
+The definite integral of a function can be computed numerically using the Trapezium or Simpson's Rule. The Trapezium rule evaluates the area under a graph *f(x)* as a set of trapezia with straight line segments while the Simpson's Rule uses segments with parabolic curves. The techniques are approximations of the definite integral and have lower- and upper-bound error values which can be found analytically. For the Trapezium Rule, the error can be found as: 
 <p align="center">
-<img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorT.PNG" width="160"/>
+<img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorT.PNG" width="160"/> [1]
 </p>
 
-where *a* and *b* are the limits of the definite integral, *n* is the number of subintervals for the trapezia and ξ is an adjustable parameter which exists somewhere between *a* and *b*. For the Simpson's Rule, the error can be found as: [1]
+where *a* and *b* are the limits of the definite integral, *n* is the number of subintervals for the trapezia and ξ is an adjustable parameter which exists somewhere between *a* and *b*. For the Simpson's Rule, the error can be found as: 
 <p align="center">
-<img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorS.PNG" width="160"/>
+<img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorS.PNG" width="160"/> [1]
 </p>
 
 In this project, the Simpson's Rule, Trapezium Rule and a Python scipy.integrate package are used to evaluate a definite integral, and the error values are compared to the expected value in the first two instances. 
