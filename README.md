@@ -12,7 +12,7 @@ where *a* and *b* are the limits of the definite integral, *n* is the number of 
 <img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorS.PNG" width="160"/> [1]
 </p>
 
-In this project, the Simpson's Rule, Trapezium Rule and a Python scipy.integrate package are used to evaluate a definite integral, and the error values are compared to the expected value in the first two instances. 
+In this project, the Simpson's Rule, Trapezium Rule and a Python scipy.integrate package are used to evaluate a definite integral, and the error values are compared to the expected value in the first two instances. A least-squares line of best fit technique is used to evaluate the error against different values of _n_.
 
 ## Program
 The program NumericalIntegration.py uses a function with limits, which can be user-defined, to produce a set of plots and data which are evaluated in the report NumericalIntegrationTechniques.pdf. An overview of the outputs of the program are as follows:
@@ -26,8 +26,13 @@ trapezium rule, where n is the number of trapezia.
 
 - **SimpsonsErrorPlot:**  Plot of the relative error against the number of subintervals for the Simpsons Rule using a log10 - log10 scale.
 
-
-
+# Key Findings/Observations
+- The analytical value for the definite integral was found to be within the range of error for both the Trapezium and Simpson's Rule, validating the techniques and the
+error calculations. 
+- The calculations for the error by the Simpson's Rule were limited due to floating point arithmetic in Python, so fewer data were fitted in comparison to the error 
+approximation for the trapezium rule. 
+- The Scipy.integrate built-in technique was found to have the smallest error and the fewest function calls. This is because the technique splits the subintervals of each
+segment into different lengths, instead of using a constant length as with the Trapezium and Simpson's rule.
 
 ## Reference(s)
 [1] Hoover, Dorothy M. (1955) "Estimates of Error in Numerical Integration," Journal of the Arkansas Academy of Science: Vol. 8 , Article
