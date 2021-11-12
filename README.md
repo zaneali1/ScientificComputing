@@ -19,7 +19,7 @@ The program NumericalIntegration.py uses a function with limits, which can be us
 - **Function.jpg:** A plot of the function exp(-x)sin(x) between 0 and π, which is to be to be integrated using different numerical integration techniques 
 between the limits 0 and 2. The range, function and limits can all be defined by the user. 
 
-- **TrapeziumRuleTable:**: A table of approximations for the integral of the function provided to numericalintegration.py which have been calculated by the 
+- **TrapeziumRuleTable:** A table of approximations for the integral of the function provided to numericalintegration.py which have been calculated by the 
 trapezium rule, where n is the number of trapezia. 
 
 - **TrapeziumErrorPlot:** Plot of the relative error against the number of subintervals for the Trapezium Rule using a log10 - log10 scale.
