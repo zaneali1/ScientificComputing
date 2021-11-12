@@ -26,7 +26,7 @@ trapezium rule, where n is the number of trapezia.
 
 - **SimpsonsErrorPlot:**  Plot of the relative error against the number of subintervals for the Simpsons Rule using a log10 - log10 scale.
 
-# Key Findings/Observations
+## Key Findings and Observations
 - The analytical value for the definite integral was found to be within the range of error for both the Trapezium and Simpson's Rule, validating the techniques and the
 error calculations. 
 - The calculations for the error by the Simpson's Rule were limited due to floating point arithmetic in Python, so fewer data were fitted in comparison to the error 
