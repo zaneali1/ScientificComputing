@@ -23,7 +23,7 @@ between the limits 0 and 2. The range, function and limits can all be defined by
 trapezium rule, where n is the number of trapezia. 
 
 - **TrapeziumErrorPlot:** Plot of the relative error against the number of subintervals for the Trapezium Rule using a log10 - log10 scale.
-- 
+
 - **SimpsonsErrorPlot:**  Plot of the relative error against the number of subintervals for the Simpsons Rule using a log10 - log10 scale.
 
 
