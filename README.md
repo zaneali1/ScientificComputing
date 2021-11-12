@@ -29,6 +29,6 @@ trapezium rule, where n is the number of trapezia.
 
 
 
-## References
+## Reference(s)
 [1] Hoover, Dorothy M. (1955) "Estimates of Error in Numerical Integration," Journal of the Arkansas Academy of Science: Vol. 8 , Article
 23.
