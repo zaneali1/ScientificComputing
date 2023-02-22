@@ -2,7 +2,9 @@
 *NB: A detailed write-up of this project can be found in this repository in the file NumericalIntegrationTechniques.pdf*.
 
 ## Overview
-The definite integral of a function *f(x)* can be computed numerically using the Trapezium or Simpson's Rule. The Trapezium rule evaluates the area under a graph *f(x)* as a set of trapezia with straight line segments while the Simpson's Rule uses segments with parabolic curves. The techniques are approximations of the definite integral and have lower- and upper-bound error values which can be found analytically. For the Trapezium Rule, the error can be found as: 
+The definite integral of a function *f(x)* can be computed numerically using the Trapezium or Simpson's Rule. 
+
+The Trapezium rule evaluates the area under a graph *f(x)* as a set of trapezia with straight line segments while the Simpson's Rule uses segments with parabolic curves. The techniques are approximations of the definite integral and have lower- and upper-bound error values which can be found analytically. For the Trapezium Rule, the error can be found as: 
 <p align="center">
 <img src="https://github.com/zaneali1/ScientificComputing/blob/main/READMEimages/ErrorT.PNG" width="160"/> [1]
 </p>
